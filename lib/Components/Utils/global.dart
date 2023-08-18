@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../Model/festival_model.dart';
+import '../../Model/bhagwatgeeta_model.dart';
 
 class Global {
   static late List<Posts> QuotsData;
+  static late List<Posts> Geetaadhyay;
 
   static String post = "";
   static String wish = "";
@@ -259,16 +260,19 @@ class Global {
   ];
 
   static List<String> bgImageList = [
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/umang.jpg",
+    "lib/Components/Assets/images.jpeg",
+    "lib/Components/Assets/images (1).jpeg",
+    "lib/Components/Assets/images (2).jpeg",
+    "lib/Components/Assets/images (3).jpeg",
+    "lib/Components/Assets/images (4).jpeg",
+    "lib/Components/Assets/images (5).jpeg",
+    "lib/Components/Assets/images (6).jpeg",
     "lib/Components/Assets/images (7).jpeg",
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/image1.jpg",
-    "lib/Components/Assets/image1.jpg",
+    "lib/Components/Assets/images (8).jpeg",
+    "lib/Components/Assets/images (10).jpeg",
+    "lib/Components/Assets/images (11).jpeg",
+
+
 
   ];
 

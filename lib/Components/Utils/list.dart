@@ -1,356 +1,83 @@
-List<Map<String, dynamic>> FestivalQuoteList = [
+List<Map<String, dynamic>> bhagwatgeeta = [
 
-{
-"quote": "Wishing you a Diwali filled with love, laughter, and the warmth of family bonds.",
-"festival_name": "Happy Diwali",
-"festival_image": "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg"
-},
-{
-"quote": "May the colors of Holi fill your life with happiness, love, and positivity.",
-"festival_name": "Holi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/42/82/99/360_F_342829946_iXN9JrgLYDBjqQkIYUDsLHk8DkNmHz32.jpg"
-},
-{
-"quote": "Wishing you a joyful and prosperous Navratri filled with devotion and celebration.",
-"festival_name": "Navratri",
-"festival_image": "https://t3.ftcdn.net/jpg/02/87/95/69/360_F_287956989_oE1HF8h56Mty95ojuTqlzc8E30u3EN82.jpg"
-},
-{
-"quote": "May the divine blessings of Lord Ganesha bring you success and happiness on Ganesh Chaturthi.",
-"festival_name": "Ganesh Chaturthi",
-"festival_image": "https://t3.ftcdn.net/jpg/04/07/94/95/360_F_407949546_mG6r4qV9cdHTlUrGpyFJqR2p5U1JYia3.jpg"
-},
-{
-"quote": "Wishing you a blessed and peaceful Maha Shivaratri filled with devotion and reflection.",
-"festival_name": "Maha Shivaratri",
-"festival_image": "https://t3.ftcdn.net/jpg/04/26/23/89/360_F_426238987_QA3J9yvFbWt8sckyBNhjuV9DoVGj5QZ7.jpg"
-},
-{
-"quote": "May the divine light of Pongal fill your life with happiness, abundance, and prosperity.",
-"festival_name": "Pongal",
-"festival_image": "https://t3.ftcdn.net/jpg/03/44/84/71/360_F_344847174_08iRrmQix0S0otAOx4DspD8EemRgH2yM.jpg"
-},
-{
-"quote": "Wishing you a colorful and joyful Makar Sankranti filled with sweet moments and good times.",
-"festival_name": "Makar Sankranti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/57/50/12/360_F_257501234_GXUdX9QzBZV0ccCGEd5J4rXt3pLBQmsL.jpg"
-},
-{
-"quote": "May the blessings of Goddess Durga bring you strength and happiness on Durga Puja.",
-"festival_name": "Durga Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/80/69/360_F_263806914_9IiH8IK6gNRyPU5ilz7Djs9Xw2PqFwVR.jpg"
-},
-{
-"quote": "Wishing you a harvest season filled with prosperity, joy, and gratitude on Onam.",
-"festival_name": "Onam",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/38/87/360_F_263388752_7JYGQoz2dW6XYoIfXNUzB9CHkAGWd3Tj.jpg"
-},
-{
-"quote": "May the divine blessings of Lord Ram bring you success and happiness on Ram Navami.",
-"festival_name": "Ram Navami",
-"festival_image": "https://t3.ftcdn.net/jpg/04/27/10/06/360_F_427100622_mGz7DbKVQZDXYK8CqZM4D9LXqBz6uGnx.jpg"
-},
-{
-"quote": "Wishing you a blessed and spiritually uplifting Guru Purnima.",
-"festival_name": "Guru Purnima",
-"festival_image": "https://t3.ftcdn.net/jpg/04/64/49/02/360_F_464490271_PsUDuK4FuZH4Iy5HfLbopg8K7jW3a13J.jpg"
-},
-{
-"quote": "May the divine light of Diwali bring you peace, happiness, and prosperity.",
-"festival_name": "Diwali",
-"festival_image": "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg"
-},
-{
-"quote": "Wishing you a joyous and prosperous New Year on Ugadi.",
-"festival_name": "Ugadi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/18/09/24/360_F_318092497_6dJpUfbu9D9doq3hL2XPlUUBw8U7ce8H.jpg"
-},
-{
-"quote": "May the bond of brother and sister be filled with love and happiness on Raksha Bandhan.",
-"festival_name": "Raksha Bandhan",
-"festival_image": "https://t3.ftcdn.net/jpg/03/04/72/49/360_F_304724933_O8pUGtr8lbvlH19VDcqJ01DckkjM4YXm.jpg"
-},
-{
-"quote": "Wishing you a harvest festival full of joy, gratitude, and good times on Baisakhi.",
-"festival_name": "Baisakhi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/54/67/87/360_F_354678707_b5LRSi4vh9qNnmXZ3c5DAotJqKs4g5JB.jpg"
-},
-{
-"quote": "May the divine blessings of Lord Krishna bring you love, joy, and peace on Janmashtami.",
-"festival_name": "Janmashtami",
-"festival_image": "https://t3.ftcdn.net/jpg/04/11/94/18/360_F_411941818_9W28Zv2Fq6uIFhCek0BGxPZ9pqVjdB1V.jpg"
-},
-{
-"quote": "Wishing you a blessed and spiritually fulfilling Mahavir Jayanti.",
-"festival_name": "Mahavir Jayanti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/97/96/12/360_F_297961273_1M4iNQaOqY3bPPeGQzyfuqDKW0zkgujC.jpg"
-},
-{
-"quote": "May the divine light of Karva Chauth strengthen the bond of love between couples.",
-"festival_name": "Karva Chauth",
-"festival_image": "https://t3.ftcdn.net/jpg/03/52/35/31/360_F_352353125_zW7f3p4rYCL6lgVeQYPwUxF1i9b0ySJT.jpg"
-},
-{
-"quote": "Wishing you a peaceful and enlightening Kartik Purnima.",
-"festival_name": "Kartik Purnima",
-"festival_image": "https://t3.ftcdn.net/jpg/02/90/50/09/360_F_290500978_rQXMVeDVtzK3Hs2CZAHgQwBSnClcmXPR.jpg"
-},
-{
-"quote": "May the blessings of Lord Vishwakarma bring success and prosperity in your endeavors.",
-"festival_name": "Vishwakarma Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/03/45/54/35/360_F_345543510_ja61W0a3L9OXeA0yGeqPwXr84XXoRQgW.jpg"
-},
-{
-"quote": "Wishing you a joyful and prosperous Gudi Padwa.",
-"festival_name": "Gudi Padwa",
-"festival_image": "https://t3.ftcdn.net/jpg/02/59/29/23/360_F_259292352_4YkxYXF8zEGNqQj2qW6NPe9UgbLMxRwv.jpg"
-},
-{
-"quote": "May the divine blessings of Lord Rama guide you towards righteousness on Rama Navami.",
-"festival_name": "Rama Navami",
-"festival_image": "https://t3.ftcdn.net/jpg/03/57/23/24/360_F_357232463_jrIMbRnZtr1tjn9NhNZmKl4WVTPfnEF0.jpg"
-},
-{
-"quote": "Wishing you a colorful and joyous Holi filled with love and laughter.",
-"festival_name": "Holi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/42/82/99/360_F_342829946_iXN9JrgLYDBjqQkIYUDsLHk8DkNmHz32.jpg"
-},
-{
-"quote": "May the divine blessings of Goddess Durga bring you strength and courage on Durga Puja.",
-"festival_name": "Durga Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/80/69/360_F_263806914_9IiH8IK6gNRyPU5ilz7Djs9Xw2PqFwVR.jpg"
-},
-{
-"quote": "Wishing you a prosperous and joyful Makar Sankranti filled with sweet moments and new beginnings.",
-"festival_name": "Makar Sankranti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/57/50/12/360_F_257501234_GXUdX9QzBZV0ccCGEd5J4rXt3pLBQmsL.jpg"
-},
-{
-"quote": "May the divine light of Diwali dispel darkness and bring happiness to your life.",
-"festival_name": "Diwali",
-"festival_image": "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg"
-},
-{
-"quote": "Wishing you a blessed and prosperous Navratri filled with devotion and celebration.",
-"festival_name": "Navratri",
-"festival_image": "https://t3.ftcdn.net/jpg/02/87/95/69/360_F_287956989_oE1HF8h56Mty95ojuTqlzc8E30u3EN82.jpg"
-},
-{
-"quote": "May the blessings of Lord Ganesha bring success and happiness on Ganesh Chaturthi.",
-"festival_name": "Ganesh Chaturthi",
-"festival_image": "https://t3.ftcdn.net/jpg/04/07/94/95/360_F_407949546_mG6r4qV9cdHTlUrGpyFJqR2p5U1JYia3.jpg"
-},
-{
-"quote": "Wishing you a peaceful and prosperous Maha Shivaratri filled with devotion and reflection.",
-"festival_name": "Maha Shivaratri",
-"festival_image": "https://t3.ftcdn.net/jpg/04/26/23/89/360_F_426238987_QA3J9yvFbWt8sckyBNhjuV9DoVGj5QZ7.jpg"
-},
-{
-"quote": "May the blessings of Lord Ram bring you joy and success on Ram Navami.",
-"festival_name": "Ram Navami",
-"festival_image": "https://t3.ftcdn.net/jpg/04/27/10/06/360_F_427100622_mGz7DbKVQZDXYK8CqZM4D9LXqBz6uGnx.jpg"
-},
-{
-"quote": "Wishing you a blessed and spiritually enriching Guru Purnima.",
-"festival_name": "Guru Purnima",
-"festival_image": "https://t3.ftcdn.net/jpg/04/64/49/02/360_F_464490271_PsUDuK4FuZH4Iy5HfLbopg8K7jW3a13J.jpg"
-},
-{
-"quote": "May the festival of lights, Diwali, bring you happiness, prosperity, and positivity.",
-"festival_name": "Diwali",
-"festival_image": "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg"
-},
-{
-"quote": "Wishing you a joyful and blessed Navratri filled with devotion and celebrations.",
-"festival_name": "Navratri",
-"festival_image": "https://t3.ftcdn.net/jpg/02/87/95/69/360_F_287956989_oE1HF8h56Mty95ojuTqlzc8E30u3EN82.jpg"
-},
-{
-"quote": "May the blessings of Lord Ganesha bring success and prosperity on Ganesh Chaturthi.",
-"festival_name": "Ganesh Chaturthi",
-"festival_image": "https://t3.ftcdn.net/jpg/04/07/94/95/360_F_407949546_mG6r4qV9cdHTlUrGpyFJqR2p5U1JYia3.jpg"
-},
-{
-"quote": "Wishing you a spiritually enlightening and peaceful Maha Shivaratri.",
-"festival_name": "Maha Shivaratri",
-"festival_image": "https://t3.ftcdn.net/jpg/04/26/23/89/360_F_426238987_QA3J9yvFbWt8sckyBNhjuV9DoVGj5QZ7.jpg"
-},
-{
-"quote": "May the divine blessings of Pongal fill your life with happiness, abundance, and prosperity.",
-"festival_name": "Pongal",
-"festival_image": "https://t3.ftcdn.net/jpg/03/44/84/71/360_F_344847174_08iRrmQix0S0otAOx4DspD8EemRgH2yM.jpg"
-},
-{
-"quote": "Wishing you a colorful and joyous Makar Sankranti filled with happiness and new beginnings.",
-"festival_name": "Makar Sankranti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/57/50/12/360_F_257501234_GXUdX9QzBZV0ccCGEd5J4rXt3pLBQmsL.jpg"
-},
-{
-"quote": "May the blessings of Goddess Durga bring you strength and joy on Durga Puja.",
-"festival_name": "Durga Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/80/69/360_F_263806914_9IiH8IK6gNRyPU5ilz7Djs9Xw2PqFwVR.jpg"
-},
-{
-"quote": "Wishing you a bountiful and prosperous Onam filled with gratitude and celebrations.",
-"festival_name": "Onam",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/38/87/360_F_263388752_7JYGQoz2dW6XYoIfXNUzB9CHkAGWd3Tj.jpg"
-},
-{
-"quote": "May the blessings of Lord Ram bring you happiness and success on Ram Navami.",
-"festival_name": "Ram Navami",
-"festival_image": "https://t3.ftcdn.net/jpg/04/27/10/06/360_F_427100622_mGz7DbKVQZDXYK8CqZM4D9LXqBz6uGnx.jpg"
-},
-{
-"quote": "Wishing you a blessed and spiritually uplifting Guru Purnima.",
-"festival_name": "Guru Purnima",
-"festival_image": "https://t3.ftcdn.net/jpg/04/64/49/02/360_F_464490271_PsUDuK4FuZH4Iy5HfLbopg8K7jW3a13J.jpg"
-},
-{
-"quote": "May the divine light of Diwali bring you peace, happiness, and prosperity.",
-"festival_name": "Diwali",
-"festival_image": "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg"
-},
-{
-"quote": "Wishing you a joyous and prosperous New Year on Ugadi.",
-"festival_name": "Ugadi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/18/09/24/360_F_318092497_6dJpUfbu9D9doq3hL2XPlUUBw8U7ce8H.jpg"
-},
-{
-"quote": "May the bond of love between brother and sister grow stronger on Raksha Bandhan.",
-"festival_name": "Raksha Bandhan",
-"festival_image": "https://t3.ftcdn.net/jpg/03/04/72/49/360_F_304724933_O8pUGtr8lbvlH19VDcqJ01DckkjM4YXm.jpg"
-},
-{
-"quote": "Wishing you a prosperous and joyous Baisakhi filled with happiness and celebration.",
-"festival_name": "Baisakhi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/54/67/87/360_F_354678707_b5LRSi4vh9qNnmXZ3c5DAotJqKs4g5JB.jpg"
-},
-{
-"quote": "May the blessings of Lord Krishna bring you love, joy, and peace on Janmashtami.",
-"festival_name": "Janmashtami",
-"festival_image": "https://t3.ftcdn.net/jpg/04/11/94/18/360_F_411941818_9W28Zv2Fq6uIFhCek0BGxPZ9pqVjdB1V.jpg"
-},
-{
-"quote": "Wishing you a blessed and spiritually fulfilling Mahavir Jayanti.",
-"festival_name": "Mahavir Jayanti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/97/96/12/360_F_297961273_1M4iNQaOqY3bPPeGQzyfuqDKW0zkgujC.jpg"
-},
-{
-"quote": "May the divine light of Karva Chauth strengthen the bond of love between couples.",
-"festival_name": "Karva Chauth",
-"festival_image": "https://t3.ftcdn.net/jpg/03/52/35/31/360_F_352353125_zW7f3p4rYCL6lgVeQYPwUxF1i9b0ySJT.jpg"
-},
-{
-"quote": "Wishing you a peaceful and enlightening Kartik Purnima.",
-"festival_name": "Kartik Purnima",
-"festival_image": "https://t3.ftcdn.net/jpg/02/90/50/09/360_F_290500978_rQXMVeDVtzK3Hs2CZAHgQwBSnClcmXPR.jpg"
-},
-{
-"quote": "May the blessings of Lord Vishwakarma bring success and prosperity in your endeavors.",
-"festival_name": "Vishwakarma Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/03/45/54/35/360_F_345543510_ja61W0a3L9OXeA0yGeqPwXr84XXoRQgW.jpg"
-},
-{
-"quote": "Wishing you a joyful and prosperous Gudi Padwa.",
-"festival_name": "Gudi Padwa",
-"festival_image": "https://t3.ftcdn.net/jpg/02/59/29/23/360_F_259292352_4YkxYXF8zEGNqQj2qW6NPe9UgbLMxRwv.jpg"
-},
-{
-"quote": "May the blessings of Lord Rama guide you towards righteousness on Rama Navami.",
-"festival_name": "Rama Navami",
-"festival_image": "https://t3.ftcdn.net/jpg/03/57/23/24/360_F_357232463_jrIMbRnZtr1tjn9NhNZmKl4WVTPfnEF0.jpg"
-},
-{
-"quote": "Wishing you a colorful and joyous Holi filled with love and laughter.",
-"festival_name": "Holi",
-"festival_image": "https://t3.ftcdn.net/jpg/03/42/82/99/360_F_342829946_iXN9JrgLYDBjqQkIYUDsLHk8DkNmHz32.jpg"
-},
-{
-"quote": "May the divine blessings of Goddess Durga bring you strength and courage on Durga Puja.",
-"festival_name": "Durga Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/80/69/360_F_263806914_9IiH8IK6gNRyPU5ilz7Djs9Xw2PqFwVR.jpg"
-},
-{
-"quote": "Wishing you a prosperous and joyful Makar Sankranti filled with sweet moments and new beginnings.",
-"festival_name": "Makar Sankranti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/57/50/12/360_F_257501234_GXUdX9QzBZV0ccCGEd5J4rXt3pLBQmsL.jpg"
-},
-{
-"quote": "May the divine light of Diwali dispel darkness and bring happiness to your life.",
-"festival_name": "Diwali",
-"festival_image": "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg"
-},
-{
-"quote": "Wishing you a blessed and prosperous Navratri filled with devotion and celebration.",
-"festival_name": "Navratri",
-"festival_image": "https://t3.ftcdn.net/jpg/02/87/95/69/360_F_287956989_oE1HF8h56Mty95ojuTqlzc8E30u3EN82.jpg"
-},
-{
-"quote": "May the blessings of Lord Ganesha bring success and happiness on Ganesh Chaturthi.",
-"festival_name": "Ganesh Chaturthi",
-"festival_image": "https://t3.ftcdn.net/jpg/04/07/94/95/360_F_407949546_mG6r4qV9cdHTlUrGpyFJqR2p5U1JYia3.jpg"
-},
-{
-"quote": "Wishing you a spiritually enlightening and peaceful Maha Shivaratri.",
-"festival_name": "Maha Shivaratri",
-"festival_image": "https://t3.ftcdn.net/jpg/04/26/23/89/360_F_426238987_QA3J9yvFbWt8sckyBNhjuV9DoVGj5QZ7.jpg"
-},
-{
-"quote": "May the divine blessings of Pongal fill your life with happiness, abundance, and prosperity.",
-"festival_name": "Pongal",
-"festival_image": "https://t3.ftcdn.net/jpg/03/44/84/71/360_F_344847174_08iRrmQix0S0otAOx4DspD8EemRgH2yM.jpg"
-},
-{
-"quote": "Wishing you a colorful and joyous Makar Sankranti filled with happiness and new beginnings.",
-"festival_name": "Makar Sankranti",
-"festival_image": "https://t3.ftcdn.net/jpg/02/57/50/12/360_F_257501234_GXUdX9QzBZV0ccCGEd5J4rXt3pLBQmsL.jpg"
-},
-{
-"quote": "May the blessings of Goddess Durga bring you strength and joy on Durga Puja.",
-"festival_name": "Durga Puja",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/80/69/360_F_263806914_9IiH8IK6gNRyPU5ilz7Djs9Xw2PqFwVR.jpg"
-},
-{
-"quote": "Wishing you a bountiful and prosperous Onam filled with gratitude and celebrations.",
-"festival_name": "Onam",
-"festival_image": "https://t3.ftcdn.net/jpg/02/63/38/87/360_F_263388752_7JYGQoz2dW6XYoIfXNUzB9CHkAGWd3Tj.jpg"
-},
-{
-"quote": "May the blessings of Lord Ram bring you happiness and success on Ram Navami.",
-"festival_name": "Ram Navami",
-"festival_image": "https://t3.ftcdn.net/jpg/04/27/10/06/360_F_427100622_mGz7DbKVQZDXYK8CqZM4D9LXqBz6uGnx.jpg"
-},
-{
-"quote": "Wishing you a blessed and spiritually enriching Guru Purnima.",
-"festival_name": "Guru Purnima",
-"festival_image": "https://t3.ftcdn.net/jpg/04/64/49/02/360_F_464490271_PsUDuK4FuZH4Iy5HfLbopg8K7jW3a13J.jpg"
-},
+  {
+    "shloka": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम्॥",
+    "translation": "Whenever there is a decline in righteousness and an increase in unrighteousness, at that time I manifest Myself on earth."
+  },
+  {
+    "shloka": "श्रद्धावान्लभते ज्ञानं तत्परः संयतेन्द्रियः।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति॥",
+    "translation": "The faithful, the concentrated, and the one with controlled senses obtains knowledge. Having obtained knowledge, one quickly attains supreme peace."
+  },
+  {
+    "shloka": "योगसन्न्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम्।\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय॥",
+    "translation": "O Arjuna, those who have renounced all actions in me, who are devoid of doubts, and who are filled with knowledge, are not bound by karmas, O Dhananjaya."
+  },
+  {
+    "shloka": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः।\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते॥",
+    "translation": "The Lord does not create actions, nor does He induce people to perform them, nor does He create the results of actions. All this is enacted by the modes of material nature."
+  },
+  {
+    "shloka": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः॥",
+    "translation": "For if I did not perform prescribed actions, O Partha, all men would follow My path in every way."
+  },
+  {
+    "shloka": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते संगोऽस्त्वकर्मणि॥",
+    "translation": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty."
+  },
+  {
+    "shloka": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते॥",
+    "translation": "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga."
+  },
+  {
+    "shloka": "दैवी ह्येषा गुणमयी मम माया दुरत्यया।\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते॥",
+    "translation": "This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome. But those who have surrendered unto Me can easily cross beyond it."
+  },
+  {
+    "shloka": "दैवी ह्येषा गुणमयी मम माया दुरत्यया।\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते॥",
+    "translation": "This divine energy of Mine, consisting of the three modes of material nature, is difficult to overcome. But those who have surrendered unto Me can easily cross beyond it."
+  },
+  {
+    "shloka": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि।\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही॥",
+    "translation": "Just as a person puts on new garments after discarding the old ones, the soul similarly accepts new material bodies, giving up the old and useless ones."
+  },
+  {
+    "shloka": "प्रवृत्तिं च निवृत्तिं च जना न विदुरासुराः।\nन शौचं नापि चाचारो न सत्यं तेषु विद्यते॥",
+    "translation": "The demoniac do not know what is to be done and what is not to be done. Neither cleanliness nor proper behavior nor truth is found in them."
+  },
+  {
+    "shloka": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय।\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः॥",
+    "translation": "O Dhananjaya, abandon the base desire for the fruits of work and take refuge in the intellect of equilibrium. Wretched are those motivated by results."
+  },
+  {
+    "shloka": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात्।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः॥",
+    "translation": "It is better to perform one’s own duties imperfectly than to master the duties of another. By fulfilling the obligations he is born with, a person never comes to grief."
+  }
+
 
 
 ];
 
-List<Map<String, String>> FestivalImageList = [
+List<Map<String, String>> BhagwatGeetaImageList = [
   {
     "post_image":
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxzIp7978MBMfzaT8vKGUA5QczLeVi97cZig&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7hPl9H7cKTgfArY9EU_jqAfUDpxcdKZj2g&usqp=CAU",
   },
   {
     "post_image":
-        "https://www.w3mirchi.com/images/picture/16828-happy-holi-wishes-post.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTc-uTjiPlFSILZgNcrL_Biuw-pqLGQNRS3w&usqp=CAU",
   },
   {
     "post_image":
-        "https://media.freewebstock.com/happy-diwali-post-design.jpeg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRas1UrJALyXqzPT83hf0-6P3lRzjA1qO-eIg&usqp=CAU",
   },
   {
     "post_image":
-        "https://digitalscholar.in/wp-content/uploads/2022/08/happy-independance-day-whatsapp-status-best-wishes-post-indian-express.jpg",
+        "https://www.digitalalia.in/wp-content/uploads/2023/01/shreemad-bhagawad-gita-quotes-in-hindi.jpg",
   },
   {
-    "post_image": "https://static.toiimg.com/photo/msid-70877068/70877068.jpg",
+    "post_image":
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkghQjOsg2QF3MhH6P5hATuYWkG6v50jc8TA&usqp=CAU",
   },
 ];
 
-List<Map<String, String>> FestivalNameImageList = [
 
-];

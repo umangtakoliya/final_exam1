@@ -9,7 +9,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:share_extend/share_extend.dart';
 
 import '../Components/Utils/global.dart';
-import '../Model/festival_model.dart';
+import '../Model/bhagwatgeeta_model.dart';
 
 class Detail_Page extends StatefulWidget {
   const Detail_Page({super.key});
@@ -57,7 +57,7 @@ class _Detail_PageState extends State<Detail_Page> {
       backgroundColor: Colors.grey,
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Edit Quotes"),
+        title: Text("shloka"),
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -79,7 +79,7 @@ class _Detail_PageState extends State<Detail_Page> {
           ),
           IconButton(
             onPressed: () {
-              CopytoClipBord(data: "${data.quote}");
+              CopytoClipBord(data: "${data.shloka}");
             },
             icon: Icon(
               Icons.copy,
@@ -101,7 +101,7 @@ class _Detail_PageState extends State<Detail_Page> {
             ),
           ),
         ],
-        backgroundColor: Color(0xfff57c00),
+        backgroundColor: Colors.grey,
       ),
       body: Stack(
         children: [
@@ -111,7 +111,7 @@ class _Detail_PageState extends State<Detail_Page> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: NetworkImage(
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xk0y6IvseJloDSTcPuoGglWE3q5wctGdRvhMNbaBE_Hh-vzx1oDHKAK5jdCMUf8RVDA&usqp=CAU",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSwkZLCZLlgHbEPYQ91H1p6PABQuVrABknA&usqp=CAU",
                 ),
                 fit: BoxFit.cover,
               ),
@@ -144,18 +144,23 @@ class _Detail_PageState extends State<Detail_Page> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
+
                           SelectableText(
-                            "${data.quote}",
+                            "${data.shloka}",
                             style: GoogleFonts.getFont(Global.fontFamily)
                                 .copyWith(
                                     fontSize: 20, color: Global.fontColor),
+
                           ),
+
                           SelectableText(
-                            "- ${data.festival_name}",
+                            "- ${data.translation}",
                             style: GoogleFonts.getFont(Global.fontFamily)
                                 .copyWith(
                                     fontSize: 18, color: Global.fontColor),
+
                           ),
+
                         ],
                       ),
                     ),
@@ -424,136 +429,3 @@ class _Detail_PageState extends State<Detail_Page> {
     );
   }
 }
-
-//
-//
-// SingleChildScrollView(
-// scrollDirection: Axis.horizontal,
-// child: Row(
-// children: Global.bgColorList
-//     .map(
-// (e) => GestureDetector(
-// onTap: () {
-// setState(() {
-// Global.bgColor = e;
-// });
-// },
-// child: Container(
-// padding: EdgeInsets.all(18),
-// height: 100,
-// width: 100,
-// margin: EdgeInsets.all(5),
-// decoration: BoxDecoration(
-// color: e,
-// borderRadius: BorderRadius.circular(10),
-// ),
-// alignment: Alignment.center,
-// child: Text(
-// "Background Color",
-// style: TextStyle(
-// color: Colors.black,
-// fontWeight: FontWeight.bold,
-// fontSize: 10,
-// ),
-// ),
-// ),
-// ),
-// )
-//     .toList(),
-// ),
-// ),
-// SingleChildScrollView(
-// scrollDirection: Axis.horizontal,
-// child: Row(
-// children: Global.bgColorList
-//     .map(
-// (e) => GestureDetector(
-// onTap: () {
-// setState(() {
-// Global.fontColor = e;
-// });
-// },
-// child: Container(
-// height: 80,
-// width: 80,
-// margin: EdgeInsets.all(5),
-// decoration: BoxDecoration(
-// color: e,
-// borderRadius: BorderRadius.circular(10),
-// ),
-// alignment: Alignment.center,
-// child: Text(
-// "Text Color",
-// style: TextStyle(
-// color: Colors.black,
-// fontWeight: FontWeight.bold,
-// fontSize: 10,
-// ),
-// ),
-// ),
-// ),
-// )
-//     .toList(),
-// ),
-// ),
-// SingleChildScrollView(
-// scrollDirection: Axis.horizontal,
-// child: Row(
-// children: Global.fontFamilyList
-//     .map(
-// (e) => GestureDetector(
-// onTap: () {
-// setState(() {
-// Global.fontFamily = e;
-// });
-// },
-// child: Container(
-// height: 80,
-// width: 80,
-// margin: EdgeInsets.all(5),
-// decoration: BoxDecoration(
-// color: Colors.white,
-// borderRadius: BorderRadius.circular(10),
-// ),
-// alignment: Alignment.center,
-// child: Text(
-// "A a",
-// style: GoogleFonts.getFont(e).copyWith(
-// fontSize: 30,
-// fontWeight: FontWeight.bold,
-// color: Colors.black),
-// ),
-// ),
-// ),
-// )
-//     .toList(),
-// ),
-// ),
-// SingleChildScrollView(
-// scrollDirection: Axis.horizontal,
-// child: Row(
-// children: Global.bgImageList
-//     .map(
-// (e) => GestureDetector(
-// onTap: () {
-// setState(() {
-// Global.bgImage = e;
-// });
-// },
-// child: Container(
-// height: 80,
-// width: 80,
-// margin: EdgeInsets.all(5),
-// decoration: BoxDecoration(
-// image: DecorationImage(
-// image: AssetImage(e),
-// fit: BoxFit.cover,
-// ),
-// borderRadius: BorderRadius.circular(10),
-// ),
-// ),
-// ),
-// )
-//     .toList(),
-// ),
-// ),

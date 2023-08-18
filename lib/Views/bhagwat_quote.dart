@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import '../Components/Utils/global.dart';
 import '../Components/Utils/list.dart';
-import '../Model/festival_model.dart';
+import '../Model/bhagwatgeeta_model.dart';
 
 class All_Quotes extends StatefulWidget {
   const All_Quotes({super.key});
@@ -20,7 +20,7 @@ class _All_QuotesState extends State<All_Quotes> {
     // TODO: implement initState
     super.initState();
     Global.QuotsData =
-        FestivalQuoteList.map((e) => Posts.fromMap(Data: e)).toList();
+        bhagwatgeeta.map((e) => Posts.fromMap(Data: e)).toList();
   }
 
   @override
@@ -46,12 +46,12 @@ class _All_QuotesState extends State<All_Quotes> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "FESTIVAL POST",
+          "Bhagwat Geeta",
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Color(0xfff57c00),
+        backgroundColor: Colors.grey,
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -69,8 +69,8 @@ class _All_QuotesState extends State<All_Quotes> {
                   context: context,
                   builder: (context) => AlertDialog(
                     elevation: 5,
-                    title: Text("${quotes.quote}"),
-                    content: Text("- ${quotes.festival_name}"),
+                    title: Text("${quotes.shloka}"),
+                    content: Text("- ${quotes.translation}"),
                   ),
                 );
               });
@@ -90,7 +90,7 @@ class _All_QuotesState extends State<All_Quotes> {
             decoration: BoxDecoration(
                 image: DecorationImage(
               image: NetworkImage(
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xk0y6IvseJloDSTcPuoGglWE3q5wctGdRvhMNbaBE_Hh-vzx1oDHKAK5jdCMUf8RVDA&usqp=CAU"),
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQWqr9yrSIR5nh__2DT3RqrcC6ZStjyUzQGA&usqp=CAU"),
               fit: BoxFit.cover,
             )),
           ),
@@ -110,7 +110,7 @@ class _All_QuotesState extends State<All_Quotes> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: NetworkImage(
-                                "https://www.edudwar.com/wp-content/uploads/2021/03/maha-shivratri.jpg",
+                                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNuFrsKcG5zMLRUDpWGaxCWR5rC8VifM86A&usqp=CAU",
                               ),
                               fit: BoxFit.cover,
                             ),
@@ -123,9 +123,9 @@ class _All_QuotesState extends State<All_Quotes> {
                               Padding(
                                 padding: const EdgeInsets.all(10),
                                 child: Text(
-                                  "${Global.QuotsData[i].quote}",
+                                  "${Global.QuotsData[i].shloka}",
                                   style: TextStyle(
-                                    color: Colors.white,
+                                    color: Colors.black,
                                     fontWeight: FontWeight.bold,
                                     fontSize: 20,
                                   ),
@@ -135,11 +135,11 @@ class _All_QuotesState extends State<All_Quotes> {
                                 height: 10,
                               ),
                               Text(
-                                "- ${Global.QuotsData[i].festival_name}",
+                                "- ${Global.QuotsData[i].translation}",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   fontWeight: FontWeight.w600,
-                                  fontSize: 15,
+                                  fontSize: 12,
                                 ),
                               ),
                             ],
@@ -168,7 +168,7 @@ class _All_QuotesState extends State<All_Quotes> {
                             borderRadius: BorderRadius.circular(20),
                             image: DecorationImage(
                               image: NetworkImage(
-                                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkc5twDzpmCGR9BaoAPrI8te4pgPEhbH8uyw&usqp=CAU",
+                                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBBR2TBeSL4SPt8M-Zl10Q0_io7Rp77Krxg&usqp=CAU",
                               ),
                               fit: BoxFit.cover,
                             ),
@@ -184,12 +184,12 @@ class _All_QuotesState extends State<All_Quotes> {
                                   height: 90,
                                   child: SingleChildScrollView(
                                     child: Text(
-                                      "${Global.QuotsData[i].quote}",
-                                      overflow: TextOverflow.fade,
+                                      "${Global.QuotsData[i].shloka}",
+                                      overflow: TextOverflow.ellipsis,
                                       style: TextStyle(
-                                        color: Colors.black,
+                                        color: Colors.white,
                                         fontWeight: FontWeight.bold,
-                                        fontSize: 20,
+                                        fontSize: 18,
                                       ),
                                     ),
                                   ),
@@ -203,11 +203,12 @@ class _All_QuotesState extends State<All_Quotes> {
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
-                                    "- ${Global.QuotsData[i].festival_name}",
+                                    "- ${Global.QuotsData[i].translation}",
                                     style: TextStyle(
-                                      color: Colors.black,
+                                      color: Colors.white,
                                       fontWeight: FontWeight.w400,
-                                      fontSize: 13,
+                                      fontSize: 14,
+                                      overflow: TextOverflow.ellipsis
                                     ),
                                   ),
                                 ),

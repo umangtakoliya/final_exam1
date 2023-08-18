@@ -4,7 +4,7 @@ import 'package:festival_post/Components/Utils/list.dart';
 import 'package:flutter/material.dart';
 
 import '../Components/Utils/global.dart';
-import '../Model/festival_model.dart';
+import '../Model/bhagwatgeeta_model.dart';
 
 class Home_Page extends StatefulWidget {
   const Home_Page({super.key});
@@ -20,7 +20,7 @@ class _Home_PageState extends State<Home_Page> {
     // TODO: implement initState
     super.initState();
     Global.QuotsData =
-        FestivalQuoteList.map((e) => Posts.fromMap(Data: e)).toList();
+        bhagwatgeeta.map((e) => Posts.fromMap(Data: e)).toList();
   }
 
   @override
@@ -33,12 +33,12 @@ class _Home_PageState extends State<Home_Page> {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "FESTIVAL POST",
+          "Bhagwat Geeta",
           style: TextStyle(
             fontWeight: FontWeight.bold
           ),
         ),
-        backgroundColor: Color(0xfff57c00),
+        backgroundColor: Colors.grey,
         elevation: 2,
         shadowColor: Colors.grey,
         actions: [
@@ -62,7 +62,7 @@ class _Home_PageState extends State<Home_Page> {
             decoration: BoxDecoration(
                 image: DecorationImage(
               image:NetworkImage
-                ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7xk0y6IvseJloDSTcPuoGglWE3q5wctGdRvhMNbaBE_Hh-vzx1oDHKAK5jdCMUf8RVDA&usqp=CAU"),
+                ("https://w0.peakpx.com/wallpaper/566/260/HD-wallpaper-shree-krishna-govardhan-hill-lord-god-kanha.jpg"),
               fit: BoxFit.cover,
             )),
           ),SizedBox(
@@ -100,15 +100,16 @@ class _Home_PageState extends State<Home_Page> {
                         scrollDirection: Axis.horizontal,
                         child: Row(
                           children: [
-                            ...FestivalImageList.map(
+                            ...BhagwatGeetaImageList.map(
                               (e) => Container(
                                 height: h * .3,
                                 width: w * .9,
                                 decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20),
+                                  // borderRadius: BorderRadius.circular(20),
                                   color: Colors.white,
                                   image: DecorationImage(
-                                    image: NetworkImage("${e['post_image']}"),
+                                    image: NetworkImage("${e['post_image']}",),
+                                    fit: BoxFit.cover
                                   ),
                                 ),
                               ),
@@ -140,75 +141,16 @@ class _Home_PageState extends State<Home_Page> {
                       ),
                       alignment: Alignment.center,
                       child: Text(
-                        "Show All Poster",
+                        "...All Sholk...",
                         style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: 20,
+                          fontSize: 30,
                         ),
                       ),
                     ),
                   ),
-                  // SizedBox(
-                  //   height: 20,
-                  // ),
-                  // Text(
-                  //   "WALLPAPER",
-                  //   style: TextStyle(
-                  //     fontWeight: FontWeight.bold,
-                  //     fontSize: 20,
-                  //   ),
-                  // ),
-                  // SizedBox(
-                  //   height: 18,
-                  // ),
-                  // Row(
-                  //   children: [
-                  //     GestureDetector(
-                  //       onTap: () {
-                  //         Navigator.pushNamed(context, "wallpaper");
-                  //       },
-                  //       child: Container(
-                  //         height: h * .35,
-                  //         width: w * .42,
-                  //         decoration: BoxDecoration(
-                  //           border: Border.all(
-                  //             color: Colors.black,
-                  //             width: 2,
-                  //           ),
-                  //           image: DecorationImage(
-                  //             image: AssetImage(
-                  //               "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                  //             ),
-                  //             fit: BoxFit.cover,
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //     Spacer(),
-                  //     GestureDetector(
-                  //       onTap: () {
-                  //         Navigator.pushNamed(context, "wallpaper");
-                  //       },
-                  //       child: Container(
-                  //         height: h * .35,
-                  //         width: w * .42,
-                  //         decoration: BoxDecoration(
-                  //           border: Border.all(
-                  //             color: Colors.black,
-                  //             width: 2,
-                  //           ),
-                  //           image: DecorationImage(
-                  //             image: AssetImage(
-                  //               "lib/Components/Assets/Default_holi_colorfull_background_2.jpg",
-                  //             ),
-                  //             fit: BoxFit.cover,
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ),
-                  //   ],
-                  // ),
+
 
                 ],
               ),
